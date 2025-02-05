@@ -1,0 +1,45 @@
+
+<head>
+    <title>Demo External JavaScript</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Demo External JavaScript</h2>
+
+    <p id="demo">A Paragraph.</p>
+
+    <button type="button" onclick="myFunction()">Try it</button>
+
+    <p>This example links to <code>"myScript.js"</code>.</p>
+    <p>(<code>myFunction</code> is stored in <code>"myScript.js"</code>)</p>
+
+    <script src="myScript.js"></script>
+
+</body>
+</html>
